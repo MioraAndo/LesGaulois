@@ -12,12 +12,6 @@ public class TestGaulois {
 		Romain brutus = new Romain("Brutus", 14);
 		Druide panoramix = new Druide("Panoramix", 2);
 		
-		
-		asterix.parler("Bonjour Obelix.");
-		obelix.parler("Bonjour Asterix. Ca te dirais d'aller chasser des sangliers ?");
-		asterix.parler("Oui très bonne idée.");
-		System.out.println("“Dans la forêt Astérix et Obélix tombent nez à nez sur le romain Minus");
-		
 		panoramix.fabriquerPotion(4, 3);
 		panoramix.boosterGaulois(obelix);
 		panoramix.boosterGaulois(asterix);
