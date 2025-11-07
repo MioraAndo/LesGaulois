@@ -1,5 +1,5 @@
 package personnages;
-
+import objets.Equipement;
 public class Gaulois {
 	
 	public Gaulois(String nom, int force) {
@@ -50,7 +50,7 @@ public class Gaulois {
 		romain.getNom()); 
 		Equipement[] coupe = romain.recevoirCoup((force / 3) * effetPotion); 
 		for (int i = 0; coupe != null && i < coupe.length; i++, 
-		nb_trophees++) { 
+		nbTrophees++) { 
 		this.trophees[nbTrophees] = trophees[i]; 
 		} 
 		 
